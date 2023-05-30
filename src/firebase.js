@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAmc4PRNbSorxdsSmnnia359soWNL2Iy_c" ,
+  apiKey: process.env.REACT_APP_APIKEY,
   authDomain: "ecommerce-45b30.firebaseapp.com",
   projectId: "ecommerce-45b30",
   storageBucket: "ecommerce-45b30.appspot.com",
