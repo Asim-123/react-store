@@ -1,0 +1,22 @@
+.signup-btn {
+  width: 200px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 20px;
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ff2366;
+  }
+}
+
+.btn-margin {
+  margin-top: 20px;
+}

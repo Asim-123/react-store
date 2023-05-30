@@ -1,0 +1,55 @@
+.upload-form {
+    // Styles for the outer container
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    .form {
+      // Styles for the form container
+      margin-top: 20px;
+      
+      h1 {
+        // Styles for the heading
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .ant-form-item-label {
+        // Styles for the form item labels
+        label {
+          font-weight: bold;
+        }
+      }
+      
+      .ant-form-item-control {
+        // Styles for the form item controls
+        .ant-input {
+          // Styles for the input field
+          width: 100%;
+        }
+        
+        .ant-select {
+          // Styles for the select component
+          width: 100%;
+        }
+        
+        .ant-upload {
+          // Styles for the upload component
+          width: 100%;
+          
+          .ant-upload-list-picture-card-container {
+            .ant-upload-list-item {
+              .ant-upload-list-item-thumbnail {
+                // Styles for the thumbnail container
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
